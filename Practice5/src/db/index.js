@@ -14,6 +14,7 @@ const connectDB = async () => {
         console.error("ERROR: Could not connect to the database", error)
         process.exit(1)
     }
+    
 }
 
 
